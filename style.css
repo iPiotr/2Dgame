@@ -1,8 +1,24 @@
 * {
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
 }
 
-#game {
-    background: #5792f1;
-    margin: 125px 0px 125px 295px;
+#gameCanvas {
+    display: block;
+    margin: 0 auto;
+}
+
+#score {
+    text-align: center;
+    font-size:  2rem;
+    font-family: 'Arial', sans-serif;
+}
+#start {
+    margin: 10px auto;
+    width: max-content;
+    background: #2c71f1;
+    color: #ffffff;
+    padding: 10px;
+    cursor: default;
 }
