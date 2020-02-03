@@ -63,6 +63,7 @@ function clearCanvas() {
     ctx.fillRect(0, 0, gameCanvas.width, gameCanvas.height);
     //window border
     ctx.strokeRect(0, 0, gameCanvas.width, gameCanvas.height);
+    
 }
 
 function drawFood() {
